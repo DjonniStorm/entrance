@@ -5,7 +5,7 @@
       <h3>Желаемая должность:<br/> участник курса Frontend-разработчик</h3>
     </div>
     <div id="photo">
-      <img src="/profile_image.png" alt="фото"/>
+      <img src="./profile_image.png" alt="фото"/>
     </div>
   </div>
   <hr />

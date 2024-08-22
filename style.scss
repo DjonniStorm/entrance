@@ -57,5 +57,8 @@ body {
   }
   div.center {
     width: 55%;
+    h4 {
+      color: $secondary-text-color;
+    }
   }
 }

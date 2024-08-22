@@ -5,7 +5,7 @@
       <h3>Желаемая должность:<br/> участник курса Frontend-разработчик</h3>
     </div>
     <div id="photo">
-      <img src="./public/profileImage.png" alt="фото"/>
+      <img src="/profile_image.png" alt="фото"/>
     </div>
   </div>
   <hr />
@@ -44,7 +44,7 @@
         <li>Изучение современных подходов к разработке</li>
         <li>Изучение новых фреймворков</li>
       </ul>
-      <h5>О курсах узнал <a href="https://codecup.online/">на сайте</a></h5>
+      <h5>О курсах узнал <a href="https://codecup.online/" target="_blank">на сайте</a></h5>
     </div>
   </div>
   <hr />
@@ -52,9 +52,9 @@
     <h2>Контакты:</h2>  
     <div class="center" id="contacts">
       <ul>
-        <li>телефон: <a href="tel:+79876392410">+7-987-639-24-10</a></li>
-        <li>почта: <a href="mailto:i.pazushkin@vk.com">i.pazushkin@vk.com</a></li>
-        <li>GitHub: <a href="https://github.com/DjonniStorm">@DjonniStorm</a></li>
+        <li>телефон: <a href="tel:+79876392410" target="_blank">+7-987-639-24-10</a></li>
+        <li>почта: <a href="mailto:i.pazushkin@vk.com" target="_blank">i.pazushkin@vk.com</a></li>
+        <li>GitHub: <a href="https://github.com/DjonniStorm" target="_blank">@DjonniStorm</a></li>
       </ul>
     </div>
   </div>

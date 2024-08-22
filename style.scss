@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+$main-text-color: rgba(19, 17, 17, 0.74);
+$secondary-text-color: rgba(89, 113, 166, 1);
+$background-color: rgba($color: #fff, $alpha: .7);
+$border-color: rgba(100, 100, 240, .5);
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#app {
+  width: 50%;
+  padding: 40px;
+  background-color: $background-color;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  border: 2px solid $border-color;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  > * {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h1, h2, h3 {
+    color: $main-text-color;
+  }
+  #name {
+    h3 {
+      color: $secondary-text-color;
+    }
+  }
+  #about-education {
+    h4 {
+      color: $secondary-text-color;
+    }
+  }
+  li::marker {
+    content: '>   ';
+    color: $secondary-text-color;
+  }
+  .normal::marker {
+    content: '\2713   ';
+    color: #0a0;
+  }
+  .maybe-normal::marker {
+    content: '\2713   ';
+    color: #a00;
+  }
+  a {
+    text-decoration: none;
+    color: $secondary-text-color;
+  }
+  div.center {
+    width: 55%;
+  }
+}
